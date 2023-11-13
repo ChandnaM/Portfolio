@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CV from '../../assets/cv.pdf'
 const HeroSection = () => {
   return (
     <section id="heroSection" className="hero--section">
@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="hero--section--content">
         <p className="section--title">Hello, I'm Mitakshi</p>
         <h1 className="hero--section--title">
-          <span className="hero--section-title--color">Technology</span>{" "}
+          <span className="hero--section-title--color">Digital</span>{" "}
           <br />
           Enthusiast
         </h1>
@@ -16,12 +16,12 @@ const HeroSection = () => {
           <br />I also have hands on experience on Machine Learning using Python.
         </p>
       </div>
-      <a href="https://github.com/ChandnaM/cv/raw/main/Mitakshi_Chandna_cv.pdf" download="Mitakshi_Chandna_cv.pdf">
-      <button className="btn btn-primary">View CV</button>
-      </a>
+      <a href={CV} download>
+  <button className="btn btn-primary">Download CV</button>
+</a>
     </div>
     <div className="hero--section--img">
-      <img src="./img/hero_img.png" alt="Hero Section" />
+      <img src="./img/heron11.png" alt="Hero Section" />
     </div>
   </section>
   )
