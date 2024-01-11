@@ -1,4 +1,4 @@
-import Experience from "../Experience";
+
 import AboutMe from "../AboutMe";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";

@@ -38,6 +38,7 @@ function Navbar() {
         <img src="./img/logo.png" alt="mitakshi" />
       </div>
       <a
+      
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
